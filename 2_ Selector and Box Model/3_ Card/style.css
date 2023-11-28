@@ -1,0 +1,19 @@
+.card {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid gray;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.item {
+    border-top: 1px solid gray;
+    padding: 10px;
+}
