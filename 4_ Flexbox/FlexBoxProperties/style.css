@@ -1,1 +1,64 @@
+body {
+    font-size: 1.5rem;
 
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2.5%;
+}
+
+section {
+    padding: 3rem;
+    height: 100vh;
+    width: 9%;
+}
+
+#yellow {
+    flex: 0 1 11%;
+    order: 1;
+
+    background-color: rgba(252, 241, 90, 0.459);
+
+    display: flex;
+    flex-direction: column;
+}
+#red {
+    flex: 0 1 11%;
+    order: 2;
+
+    background-color: rgba(194, 67, 93, 0.548);
+}
+#green {
+    flex: 0 1 auto;
+    order: 3;
+
+    background-color: rgba(99, 206, 99, 0.555);
+}
+#orange {
+    flex: 1 1 auto;
+    order: 4;
+
+    background-color: rgba(233, 143, 58, 0.418);
+}
+#blue{
+    flex: 0 1 auto;
+    order: 5;
+
+    background-color: rgba(74, 147, 230, 0.582);
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2ch;
+}
+section li {
+    background-color: #eee;
+    padding: 3ch;
+}
