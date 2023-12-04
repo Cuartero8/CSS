@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 2rem;
+
+    width: 200px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+ul {
+    flex: 1;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li {
+    width: 15ch;
+}
+
+a {
+    color: #2b2b2b;
+}
+a:hover {
+    color: #2b2bb2;
+    transition: .3s;
+}
+
+#user {
+    padding: 2rem;
+    align-self: center;
+    display: flex;
+    justify-items: center;
+}
