@@ -1,20 +1,29 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: grey;
 }
 
 nav {
     background-color: #333;
+    color: azure;
+    padding: 4px;
+}
+nav a, nav form {
+    display: inline;
+}
+.nav-item {
+    display: inline;
+    margin-left: 2rem;
+}
+.form {
+    margin-left: 6rem;
 }
 
-nav a, nav select, nav form {
-    margin: 10px;
-    display: inline;
-    color: azure;
-}
 
 nav a {
     text-decoration: unset;
+    color: inherit;
 }
 
 nav select {
@@ -22,17 +31,23 @@ nav select {
     background-color: inherit;
 }
 
-nav form {
-    right: 0;
+nav input, nav button {
+    padding: 2px;
+    border-radius: 5px;
+}
+nav input {
+    border: 1px #222;
 }
 nav button {
     color: darkgreen;
     font-weight: bold;
     background-color: inherit;
     border: 2px darkgreen solid;
-    border-radius: 10%;
 }
 
 .slategrey {
     color: slategrey;
+}
+.bold {
+    font-weight: bold;    
 }

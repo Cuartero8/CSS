@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 
-    <link rel="stylesheet" href="style.css"/>
+    <title>NavBar</title>
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
 
     <nav>
-
-        <a href="#">Navbar</a>
-
-        <a href="#">Home</a>
-
-        <a class="slategrey" href="#">Link</a>
-
-        <select class="slategrey" title="dropdown">
-            <option value="">Dropdown</option>
-            <option value="down1">Down 1</option>
-            <option value="down2">Down 2</option>
-
-        <a class="slategrey" href="#">Disabled</a>
         
-        <form action="">
-            <label for="search"></label>
-            <input type="text" id="search" name="search" placeholder="Search">
-            <button type="submit" >Search</button>
-        </form>
+        <div class="nav-item bold"><a href="#">Navbar</a></div>
 
+        <div class="nav-item"><a href="#">Home</a></div>
+
+        <div class="nav-item"><a class="slategrey" href="#">Link</a></div>
+
+        <div class="nav-item">
+            <select class="slategrey" title="dropdown" name="dropdown" id="dropdown">
+                <option class="bold" value="">Dropdown</option>
+                <option value="down1">Down 1</option>
+                <option value="down2">Down 2</option>
+            </select>
+        </div>
+
+        <div class="nav-item"><a class="slategrey" href="#">Disabled</a></div>
+
+        <div class="nav-item form">
+            <form action="" method="get">
+                <input type="text" name="yoqseya" placeholder="Search" />
+                <button type="submit">Search</button>
+            </form>
+        </div>
     </nav>
 
 </body>
