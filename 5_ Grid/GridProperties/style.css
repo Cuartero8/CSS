@@ -1,1 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 75vw;
+    height: 75vh;
 
+    display: grid;
+    gap: 2vw;
+    grid-template-areas: 
+        "g g g"
+        "y r b"
+        "o o b";
+}
+
+section {
+    padding: 2rem;
+}
+section ul {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+section li {
+    background-color: white;
+    width: auto;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+#green {
+    grid-area: g;
+    background-color: lightgreen;
+}
+#yellow {
+    grid-area: y;
+    background-color: lemonchiffon;
+}
+#red {
+    grid-area: r;
+    background-color: lightcoral;
+}
+#blue {
+    grid-area: b;
+    background-color: lightblue;
+}
+#orange {
+    grid-area: o;
+    background-color: lightsalmon;
+}
