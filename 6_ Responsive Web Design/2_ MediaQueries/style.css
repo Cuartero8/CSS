@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+    width: auto;
+
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background: linear-gradient(to bottom right, #888, #eee);
+    border: 1px solid #333;
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-rows: 56px 200px 1fr;
+}
+
+.encabezado {
+    padding: 5px 10px;
+
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 40px auto 30px;
+    align-items: center;
+}
+.burbuja {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #eee;
+}
+.encabezado h3 {
+    font-weight: normal;
+}
+.puntos {
+    object-fit: fill;
+    width: 100%;
+}
+
+.card > img {
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.comentarios {
+    padding: 5px 10px;
+
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 40px auto;
+}
+.icono-corazon {
+    margin: 10px 0px 10px 10px;
+    width: 30px;
+}
+.icono-comentario {
+    margin: 10px 0px;
+    width: 30px;
+}
+.texto {
+    grid-column: span 2;
+}
+p > span {
+    font-weight: bold;
+}
